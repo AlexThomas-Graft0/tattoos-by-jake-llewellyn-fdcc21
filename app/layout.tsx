@@ -24,7 +24,7 @@ export const metadata = {
 export default function RootLayout({
   children,
 }: {
-  children: React.Node;
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en" className={`${playfair.variable} ${jetbrains.variable}`}>
